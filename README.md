@@ -20,7 +20,7 @@
 Решение:
   
   1. Для создания VPC использую созданный модуль [VPC](https://github.com/Vasiliy-Ser/terraform_final_homework/tree/1c788223e5ff5e637e480492c3bf7361b028a572/file/modules/vpc)  
-  2. Для создания  VM использую модуль [test-vm ](git::https://github.com/udjin10/yandex_compute_instance?ref=1.0.0)   
+  2. Для создания  VM использую модуль [test-vm ](https://github.com/udjin10/yandex_compute_instance?ref=1.0.0)   
   ![answer1](https://github.com/Vasiliy-Ser/terraform_final_homework/blob/1c788223e5ff5e637e480492c3bf7361b028a572/png/1.png)     
   3. Настройте группы безопасности (порты 22, 80, 443). Добавил дополнительный порт 3306 для MySQL  
   ![answer2](https://github.com/Vasiliy-Ser/terraform_final_homework/blob/1c788223e5ff5e637e480492c3bf7361b028a572/png/3.png)  
